@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clinical-note-deid-open"
+version = "2.0.0"
+description = "Open PHI risk checks for AI-ready clinical text pipelines."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Clinical Note De-ID Open contributors" }]
+keywords = ["ai", "agents", "governance", "safety", "open-source"]
+
+[project.scripts]
+"clinical-note-deid-open" = "clinical_note_deid_open.cli:main"
+
+[project.urls]
+Homepage = "https://sdevkota.github.io/clinical-note-deid-open/"
+Repository = "https://github.com/sdevkota/clinical-note-deid-open"
+Issues = "https://github.com/sdevkota/clinical-note-deid-open/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
