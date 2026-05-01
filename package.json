@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/clinical-note-deid-open.git"
+    "url": "https://github.com/sdevkota/clinical-note-deid-open.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/clinical-note-deid-open/issues"
+    "url": "https://github.com/sdevkota/clinical-note-deid-open/issues"
   },
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/clinical-note-deid-open/"
+  "homepage": "https://sdevkota.github.io/clinical-note-deid-open/"
 }
